@@ -3,8 +3,20 @@ services:
   app:
     restart: always
     build: .
-    command: "python3 manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
       - "8000:8000"
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    volumes:
+      - "./mysql:/var/lib/mysql"
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=mypassword
+      - MYSQL_DATABASE=django_app

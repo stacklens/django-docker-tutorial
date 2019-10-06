@@ -9,6 +9,9 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib n
 deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free\
     > /etc/apt/sources.list
 
+RUN apt-get update
+RUN apt-get install python3-dev default-libmysqlclient-dev -y
+
 RUN mkdir /code
 WORKDIR /code
 RUN pip install pip -U -i https://pypi.tuna.tsinghua.edu.cn/simple
