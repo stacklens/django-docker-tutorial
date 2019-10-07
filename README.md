@@ -5,6 +5,8 @@
 
 **这是教你手把手部署 Docker + Django + Mysql + Ngnix + Gunicorn 的傻瓜式教程**，目的是让 Docker 菜鸟也能快速部署容器化的 Django 应用。
 
+教程传送门：[Django-Docker容器化部署教程](https://www.dusaiphoto.com/article/detail/73)
+
 **教程共四章：**
 
 - 前言
@@ -25,6 +27,34 @@
 - 完全没接触过 Docker，但却想迅速搭建容器化项目的
 - 接触过 Docker，但是却不清楚如何用 Docker 搭建 Django 项目的
 
+## 示例代码使用方法
+
+在 Linux/Mac 系统中预先安装好 Docker、Docker-compose。
+
+下载示例代码：
+
+```shel
+$ git clone https://github.com/stacklens/django-docker-tutorial.git
+```
+
+进入代码根目录：
+
+```shell
+$ cd django-docker-tutorial
+```
+
+然后运行容器：
+
+```shell
+$ docker-compose up
+```
+
+基于 Django + Docker + MySQL + Nginx + Gunicorn 的容器化项目就运行起来了。
+
+你可以用浏览器访问 Django 首页（小火箭起飞页面）。
+
+Enjoy！
+
 ## 资源列表
 
 如果你对如何将 Django 项目部署到云端完全不了解的，强烈建议先看看**传统部署流程**，建立大致印象：
@@ -39,10 +69,6 @@
 
 - [django-mysql-with-docker](http://www.nisanthsojan.com/django-mysql-with-docker -a-step-by-step-guide-for-local-development-part-1/)
 - [Docker Documention](https://docs.docker.com/)
-
-## 挑战开始
-
-多说无益，吸一口气，让挑战开始吧！
 
 ------
 
