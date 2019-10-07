@@ -2,4 +2,4 @@ __pycache__/
 *.py[cod]
 *$py.class
 mysql/
-DS_Store
+.DS_Store
