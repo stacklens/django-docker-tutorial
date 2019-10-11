@@ -7,17 +7,20 @@
 
 教程传送门：
 
-- [GitHub版](https://github.com/stacklens/django-docker-tutorial)
+- [GitHub版](https://github.com/stacklens/django-docker-tutorial/tree/master/md)
 - [个人博客版](https://www.dusaiphoto.com/article/detail/73)
 
 > 注：两个版本是完全相同的。需要留言请前往个人博客。
 
 **教程导航：**
 
-- 前言
-- Docker + Django 本地部署
-- Docker + Django + Mysql 本地部署
-- Docker + Django + Mysql + Ngnix + Gunicorn 本地 + 云端部署
+**01** - [Docker 简介](https://github.com/stacklens/django-docker-tutorial/blob/master/md/01.Docker简介.md)
+
+**02** - [Docker-Django本地部署](https://github.com/stacklens/django-docker-tutorial/blob/master/md/02.Docker-Django本地部署.md)
+
+**03** - [Docker-Django-MySQL 本地部署](https://github.com/stacklens/django-docker-tutorial/blob/master/md/03.Docker-Django-MySQL本地部署.md)
+
+**04** - [Docker-Django-MySQL-Nginx-Gunicorn 云端部署](https://github.com/stacklens/django-docker-tutorial/blob/master/md/04.Docker-Django-MySQL-Nginx-Gunicorn云端部署.md)
 
 ![](https://www.dusaiphoto.com/media/image/image_source/20190928/reduce_docker_small.jpg)
 
@@ -58,7 +61,7 @@ $ docker-compose up
 
 你可以用浏览器访问地址 `127.0.0.1:8000` ，即可看到 Django 首页（小火箭起飞页面）。
 
-Enjoy！
+**Enjoy！**
 
 > 第一次启动容器时有可能会失败，原因是 db 容器未完全初始化造成的。遇到这种情况请尝试重启容器，问题就消失了。
 
