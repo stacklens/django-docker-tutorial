@@ -80,9 +80,6 @@ $ docker-compose up
 - [django-mysql-with-docker](http://www.nisanthsojan.com/django-mysql-with-docker -a-step-by-step-guide-for-local-development-part-1/)
 - [Docker Documention](https://docs.docker.com/)
 
-------
+---
 
-- 有疑问请在[杜赛的个人网站](http://www.dusaiphoto.com)留言，我会尽快回复。
-- 或Email私信我：dusaiphoto@foxmail.com
-
-![](https://www.dusaiphoto.com/media/image/image_source/20190930/QR.jpg)
+![](http://blog.dusaiphoto.com/QR-h.jpg)
